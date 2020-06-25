@@ -1,2 +1,2 @@
 # FirstReactApp
-Created with CodeSandbox
+Basic react app made to test my knowledge and application.
