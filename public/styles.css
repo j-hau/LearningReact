@@ -1,0 +1,10 @@
+/* The CSS below refers to creating a class called heading.  This can be applied individually */
+.heading {
+  color: red;
+}
+
+/* The CSS below will apply to all tags of the form u1*/
+
+u1 {
+  color: blue;
+}
