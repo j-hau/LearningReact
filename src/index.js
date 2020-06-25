@@ -1,28 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Paragraph from "./Paragraph";
+import App from "./App";
 {
-  /* importing the Paragraph component above */
+  /* importing the Paragraph, Header and Body component above */
 }
 
-const text = "This is a suffix to test the addition of variables";
+ReactDOM.render(<App />, document.getElementById("root"));
 
-ReactDOM.render(
-  <div>
-    <h1 className="heading" contentEditable="true">
-      {" "}
-      {/*This is setting the options for the header */}
-      Hello World!
-    </h1>
-    <u1>
-      <li>This test script. {text}</li>{" "}
-      {/* This is to test adding expressions in JSX */}
-      <li>
-        This is generating a random number: {Math.floor(Math.random() * 10)}
-      </li>
-    </u1>
-    <Paragraph />{" "}
-    {/*As there would be nothing that went between the two paragraph tags, I use a self closing tag */}
-  </div>,
-  document.getElementById("root")
-);
+{
+  /* Here index js has no code, but the main functionality is found in App.jsx
+  We import App.jsx at the top, then use self closing tags to call it
+  in the render function. */
+}
