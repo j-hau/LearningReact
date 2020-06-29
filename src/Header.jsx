@@ -2,12 +2,9 @@ import React from "react";
 
 function Header() {
   return (
-    {
-      /*Below is defining the setting inside the header tag */
-    }
     <h1 className="heading" contentEditable="true">
       {" "}
-      {/*This is setting the options for the header */}
+      {/*This is setting the options for the header inside the tag*/}
       Hello World!
     </h1>
   );

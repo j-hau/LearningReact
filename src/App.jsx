@@ -5,6 +5,11 @@ import Header from "./Header";
 {
   /* importing the Paragraph, Header and Body component above */
 }
+import pi, { twoPi, squarePi } from "./Constants";
+
+{
+  /* This is importing the default as pi, but also the extra exports defined in constants.js */
+}
 
 function App() {
   return (
@@ -14,6 +19,9 @@ function App() {
       <Body />
       <Paragraph />{" "}
       {/*As there would be nothing that went between the two paragraph tags, I use a self closing tag */}
+      {pi}
+      <br />
+      {twoPi()}
     </div>
   );
 }
